@@ -4,7 +4,7 @@ const add = function(num1, num2) {
 
 const subtract = (num1, num2) => { return (num1 - num2)};
 
-const sum = function sum(arr) {
+const sum = function(arr) {
   return arr.reduce((acc, current) => acc + current, 0);
 }
 
